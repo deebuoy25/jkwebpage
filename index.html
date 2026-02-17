@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,5 +22,27 @@ background-position: center;
 </style>
 </head>
 <body>
+</body>
+</html>
+// this is the old website
+--> 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style></style>
+</head>
+<body>
+<div id="animation"></div>
+<script src="https://unpkg.com/lottie-web@latest/build/player/lottie.min.js"></script>
+<script>
+lottie.loadAnimation({
+  container: document.getElementById("animation"),
+  renderer: "svg",        // svg, canvas, or html
+  loop: true,
+  autoplay: true,
+  path: "https://dulran.com/jsons/jkwebload.json"
+});
+</script>
 </body>
 </html>
